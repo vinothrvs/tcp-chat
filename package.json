@@ -1,0 +1,29 @@
+{
+  "name": "tcp-chat-app",
+  "version": "1.0.0",
+  "description": "Real-time TCP chat application with WebSocket - Understanding Distributed Systems",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [
+    "tcp",
+    "chat",
+    "websocket",
+    "distributed-systems",
+    "real-time"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "ws": "^8.14.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
